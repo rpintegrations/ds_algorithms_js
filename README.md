@@ -1,1 +1,1 @@
-# ds_algorithms_js
+Data Strucures and algorithms in Javascript
