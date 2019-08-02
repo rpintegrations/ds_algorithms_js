@@ -1,4 +1,26 @@
 
+var arr = ['10','20'];
+
+function arrayTraverse(){
+
+    var result = '';
+    for(var i=0;i<arr.length;i++){
+
+        result = result + arr[i] + ",";
+    }
+    if(arr.length > 0){
+        var lastindexofComma = result.lastIndexOf(',', 0);
+        result = result.slice(0, result.length-1);
+    }
+
+    document.getElementById('traverseArray').innerHTML = result;
+}
+
+function arrayInsertion(){
+    
+    
+
+}
 
 function onchangeval(){
 
